@@ -1,0 +1,59 @@
+To make a commit in Git, follow these steps:
+
+Steps to Make a Commit
+Open Terminal or Command Prompt:
+
+On Windows, use Command Prompt or Git Bash.
+On macOS or Linux, use Terminal.
+Navigate to Your Repository:
+
+
+cd path/to/your/repository
+Add Files to the Staging Area:
+
+Ensure you have added the files you want to commit:
+
+git add file1.txt file2.txt
+Or, add all changes:
+
+git add .
+Make the Commit:
+
+Use the git commit command with the -m flag to provide a commit message:
+
+git commit -m "Your commit message here"
+Example
+Navigate to Your Repository:
+
+cd ~/projects/myproject
+Add Files to Staging (if not already done):
+
+
+git add index.html
+Make the Commit:
+
+
+git commit -m "Add initial version of index.html"
+Verify Commit
+Check Commit History:
+To verify the commit has been made, you can view the commit history:
+
+git log
+This command shows a list of commits, with the most recent commits at the top.
+Summary
+Add files: git add file1.txt or git add .
+Make a commit: git commit -m "Your commit message"
+Check commit history: git log
+This sequence stages your changes and commits them to the repository with a descriptive message.
+
+
+
+
+
+
+
+
+Git commit error?
+
+Check Git status?
+

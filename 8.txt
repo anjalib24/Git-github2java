@@ -1,0 +1,30 @@
+In Git, commit and push are related but distinct actions:
+
+Commit
+Purpose: Saves your changes to the local repository.
+Scope: Affects only your local repository.
+Command: git commit
+Function: Records a snapshot of your changes in the local repository with a commit message.
+Example:
+
+git commit -m "Add new feature"
+Push
+Purpose: Sends your local commits to a remote repository.
+Scope: Affects both your local and remote repositories.
+Command: git push
+Function: Uploads your committed changes to a remote repository (e.g., GitHub, GitLab) to share with others or backup.
+Example:
+
+git push origin main
+Summary of Differences
+Commit:
+
+Saves changes locally.
+Updates the local repository with a snapshot of your changes.
+Does not affect other collaborators or remote repositories.
+Push:
+
+Sends committed changes to a remote repository.
+Updates the remote repository to reflect your local commits.
+Allows others to access your changes and collaborate.
+In essence, commit is about saving changes to your local repository, while push is about sharing those changes with others by updating the remote repository.

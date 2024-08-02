@@ -1,0 +1,43 @@
+To tell Git about your name and email, you need to configure your Git settings. This information will be used in your commits to identify the author. You can set these configurations globally for all repositories or locally for a specific repository.
+
+Global Configuration (Recommended)
+Setting your name and email globally means that this information will be used for all your Git repositories.
+
+Open Terminal or Command Prompt:
+
+On Windows, open Command Prompt or Git Bash.
+On macOS or Linux, open Terminal.
+Set Your Name:
+
+
+git config --global user.name "Your Name"
+Set Your Email:
+
+
+git config --global user.email "your.email@example.com"
+Local Configuration
+If you want to set your name and email for a specific repository only, navigate to that repository and run the commands without the --global flag.
+
+Navigate to Your Repository:
+
+
+cd path/to/your/repository
+Set Your Name:
+
+
+git config user.name "Your Name"
+Set Your Email:
+
+
+git config user.email "your.email@example.com"
+Verify Configuration
+To verify that your configuration has been set correctly, you can use the following command:
+
+Global Configuration:
+
+
+git config --global --list
+Local Configuration:
+
+
+git config --list

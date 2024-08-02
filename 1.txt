@@ -1,0 +1,41 @@
+To check if Git is available on your system, you can use a few simple commands in your terminal or command prompt. Here are the steps:
+
+For Windows:
+
+1. Open Command Prompt:
+   - Press `Win + R`, type `cmd`, and press Enter.
+
+2. Check Git Version:
+   - Type `git --version` and press Enter.
+
+For macOS or Linux:
+
+1. Open Terminal:
+   - You can usually find it in the applications menu or by pressing `Cmd + Space` and typing "Terminal" on macOS, or using a shortcut like `Ctrl + Alt + T` on Linux.
+
+2. Check Git Version:
+   - Type `git --version` and press Enter.
+
+ What to Expect:
+
+- If Git is installed, you will see the version number, something like:
+  ```
+  git version 2.32.0
+  ```
+
+- If Git is not installed, you will see an error message indicating that the command is not recognized.
+
+ Example Output:
+
+- Git Installed:
+  ```sh
+  $ git --version
+  git version 2.32.0
+  ```
+
+- Git Not Installed:
+  ```sh
+  $ git --version
+  bash: git: command not found
+  ```
+
